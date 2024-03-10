@@ -461,6 +461,32 @@
     }
   }
 
+  .team1 {
+    > :first-child {
+      > div {
+        background-color: #666;
+        color: white;
+        line-height: 54px;
+        border-radius: 24px;
+        > :first-child {
+          padding: 0 24px;
+        }
+      }
+    }
+  }
+  .team2 {
+    > :first-child {
+      background-color: #666;
+      color: white;
+      line-height: 54px;
+      text-align: center;
+      border-radius: 24px;
+      > :first-child {
+        padding: 0 24px;
+      }
+    }
+  }
+
   .team1,
   .team2 {
     .ward {
@@ -642,7 +668,7 @@
         }
         .itembox {
           position: absolute;
-          bottom: -0px;
+          bottom: -32px;
           left: 0;
           width: auto;
           display: flex;
@@ -697,5 +723,12 @@
   .users_info {
     margin: 0 auto;
     width: 860px;
+
+    .team1,
+    .team2 {
+      .teamItemBox {
+        margin-left: 50px;
+      }
+    }
   }
 }
