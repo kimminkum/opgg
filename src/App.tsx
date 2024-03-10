@@ -49,8 +49,8 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <Header windowWidth={windowWidth}></Header>
         {/* header */}
+        <Header windowWidth={windowWidth}></Header>
         {/* router */}
 
         <Routes>
