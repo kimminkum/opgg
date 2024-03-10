@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/mainpj/static/css/main.a8c82b3d.css",
+    "main.js": "/mainpj/static/js/main.bb0fdee6.js",
+    "static/js/592.c8b1d6ef.chunk.js": "/mainpj/static/js/592.c8b1d6ef.chunk.js",
+    "static/media/challenger.webp": "/mainpj/static/media/challenger.0c6a6f061af019f13705.webp",
+    "static/media/emerald.webp": "/mainpj/static/media/emerald.8c95ec885204fbdf9d83.webp",
+    "static/media/grandmaster.webp": "/mainpj/static/media/grandmaster.237bca9e1c9766b6bafa.webp",
+    "static/media/master.webp": "/mainpj/static/media/master.dabb120a7600e33ff28b.webp",
+    "static/media/diamond.webp": "/mainpj/static/media/diamond.3a4ed400cc69c0df7220.webp",
+    "static/media/platinum.webp": "/mainpj/static/media/platinum.81e37eec4ac90f19da8c.webp",
+    "static/media/silver.webp": "/mainpj/static/media/silver.db5cfbebc26813e8afc9.webp",
+    "static/media/gold.webp": "/mainpj/static/media/gold.a24baa5a8e9cbcf79564.webp",
+    "static/media/bronze.webp": "/mainpj/static/media/bronze.d177169760c90b305ca4.webp",
+    "static/media/icon-logo-instagram.svg": "/mainpj/static/media/icon-logo-instagram.e70755ffd94407b0311fc2a8073387f4.svg",
+    "static/media/iorn.webp": "/mainpj/static/media/iorn.d07f8201b8ac09214170.webp",
+    "static/media/opgglogo.svg": "/mainpj/static/media/opgglogo.9d3201038934967dc5df1c9c8d7f78f9.svg",
+    "static/media/lol.svg": "/mainpj/static/media/lol.2448ae72eb0f4f0f1c7070214acd75cb.svg",
+    "static/media/icon-logo-youtube.svg": "/mainpj/static/media/icon-logo-youtube.33dc1832d983af56c8ef3512c6666094.svg",
+    "static/media/icon-logo-facebook.svg": "/mainpj/static/media/icon-logo-facebook.ee1e6ccf82389b7c6531701e786dd449.svg",
+    "index.html": "/mainpj/index.html",
+    "static/media/icon-logo-x.svg": "/mainpj/static/media/icon-logo-x.0addc4ca338f0231e2f3c0dbc8cda70a.svg",
+    "main.a8c82b3d.css.map": "/mainpj/static/css/main.a8c82b3d.css.map",
+    "main.bb0fdee6.js.map": "/mainpj/static/js/main.bb0fdee6.js.map",
+    "592.c8b1d6ef.chunk.js.map": "/mainpj/static/js/592.c8b1d6ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8c82b3d.css",
+    "static/js/main.bb0fdee6.js"
+  ]
+}
