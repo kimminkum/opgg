@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/opgg/static/css/main.a8c82b3d.css",
+    "main.css": "/opgg/static/css/main.6114b008.css",
     "main.js": "/opgg/static/js/main.73dc299d.js",
     "static/js/592.c8b1d6ef.chunk.js": "/opgg/static/js/592.c8b1d6ef.chunk.js",
     "static/media/challenger.webp": "/opgg/static/media/challenger.0c6a6f061af019f13705.webp",
@@ -20,12 +20,12 @@
     "static/media/icon-logo-facebook.svg": "/opgg/static/media/icon-logo-facebook.ee1e6ccf82389b7c6531701e786dd449.svg",
     "index.html": "/opgg/index.html",
     "static/media/icon-logo-x.svg": "/opgg/static/media/icon-logo-x.0addc4ca338f0231e2f3c0dbc8cda70a.svg",
-    "main.a8c82b3d.css.map": "/opgg/static/css/main.a8c82b3d.css.map",
+    "main.6114b008.css.map": "/opgg/static/css/main.6114b008.css.map",
     "main.73dc299d.js.map": "/opgg/static/js/main.73dc299d.js.map",
     "592.c8b1d6ef.chunk.js.map": "/opgg/static/js/592.c8b1d6ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8c82b3d.css",
+    "static/css/main.6114b008.css",
     "static/js/main.73dc299d.js"
   ]
 }
