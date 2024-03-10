@@ -17,13 +17,13 @@ const Header: React.FC<HeaderProps> = ({ windowWidth }) => {
         <div className="first flex_sb">
           <div className="logoBox flex">
             <div className="flex">
-              <a href="/mainpj" className="flex">
+              <a href="/opgg" className="flex">
                 <img src={lol} alt="" />
                 {windowWidth > 1240 && <span>리그오브레전드</span>}
               </a>
             </div>
             <div className="flex">
-              <a href="/mainpj">
+              <a href="/opgg">
                 <img src={opgglogo} alt="" />
               </a>
             </div>
