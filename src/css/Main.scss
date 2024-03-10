@@ -1,0 +1,701 @@
+.changeflex {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 0;
+
+  .second {
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--color-blue);
+    order: 1;
+
+    > div {
+      max-width: 1200px;
+      margin: 0 auto;
+
+      li {
+        padding: 0 6px;
+        margin-right: 120px;
+      }
+
+      > div:nth-child(2) {
+        position: relative;
+        span {
+          margin-left: 12px;
+        }
+      }
+    }
+  }
+
+  .lastOrder {
+    order: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.searchfloor {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  line-height: auto;
+  order: 2;
+  background-color: var(--color-indigo);
+  padding: 10px 0;
+
+  div {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  input {
+    height: 50px;
+    line-height: 50px;
+    width: 50%;
+    white-space: nowrap;
+    padding: 8px 0px 8px 16px;
+    border-radius: 20px 0 0 20px;
+  }
+
+  button {
+    background-color: white;
+    height: 48px;
+    width: 10%;
+    min-width: 60px;
+    max-width: 100px;
+    white-space: nowrap;
+    border-radius: 0 20px 20px 0;
+    margin-left: -1.5px;
+    top: 1.2px;
+  }
+}
+
+.searchOn {
+  background-color: white;
+  width: 100%;
+  .searchProfile {
+    width: 100%;
+    max-width: 1200px;
+    padding: 30px 20px;
+    margin: 20px auto;
+
+    .imgtopbox {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      display: block;
+      margin-right: 16px;
+
+      > :nth-child(1) {
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+        overflow: hidden;
+        background-color: black;
+
+        img {
+          width: 100%;
+          height: 100%;
+          z-index: 2;
+          border-radius: 20px;
+        }
+      }
+
+      > :nth-child(2) {
+        position: absolute;
+        z-index: 3;
+        background: #555;
+        color: white;
+        bottom: -10px;
+        right: 50%;
+        transform: translateX(50%);
+        border-radius: 20px;
+        padding: 4px 8px;
+      }
+    }
+
+    .profile_box {
+      display: flex;
+      flex-direction: column;
+      div {
+        .userName {
+          font-weight: 900;
+          font-size: 24px;
+        }
+        span {
+          font-size: 24px;
+          font-weight: 400;
+          margin-left: 8px;
+          color: #aaa;
+        }
+
+        p {
+          padding: 0;
+          margin: 0;
+        }
+
+        .favorit_btn1 {
+          height: 26px;
+          width: 26px;
+          margin: 0;
+          padding: 0;
+          line-height: 24px;
+          color: #aaa;
+          font-size: 1.2rem;
+          top: 6px;
+          margin-left: 6px;
+          border: 1px solid #aaa;
+        }
+        .favorit_btn2 {
+          height: 26px;
+          width: 26px;
+          margin: 0;
+          padding: 0;
+          top: 6px;
+          line-height: 24px;
+          color: white;
+          font-size: 1.2rem;
+          margin-left: 6px;
+          background-color: #ff9f4a;
+          border: none;
+        }
+      }
+
+      .Prev {
+        color: #aaa;
+        font-size: 0.8rem;
+        margin: 4px 0 6px;
+      }
+
+      .userUpdate {
+        background-color: var(--color-blue);
+        padding: 10px 12px;
+        width: 90px;
+        font-weight: 600;
+        color: white;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        border: none;
+      }
+    }
+  }
+}
+
+.ingame_rank_box {
+  width: 100%;
+  max-width: 1200px;
+  padding: 30px 20px;
+  margin: 20px auto;
+
+  .user_rank {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+
+    .solo_rank {
+      > * {
+        margin-bottom: 10px;
+      }
+
+      > :nth-child(1) {
+        color: #aaa;
+      }
+
+      .rank_box {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto 12px;
+        padding: 13px 10px 10px;
+        background-color: #cacaca;
+        border-radius: 50%;
+
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+
+      > :nth-child(2) > * {
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+
+.user_match {
+  padding: 30px 0;
+}
+
+.matchWindow {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 20px;
+  padding: 10px 40px 10px 20px;
+  border-radius: 8px;
+  overflow: hidden;
+
+  .under_btn {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    padding: 6px;
+    :hover {
+      cursor: pointer;
+    }
+  }
+
+  .info_topLine {
+    padding: 6px 0;
+    border-bottom: 1px solid var(--color-light-blue);
+
+    div {
+      display: flex;
+    }
+  }
+
+  .info_secondLine {
+    display: flex;
+    justify-content: space-between;
+    .champImg {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .spellImg {
+      width: 20px;
+      height: 20px;
+    }
+
+    > div {
+      display: flex;
+    }
+
+    > :nth-child(2) {
+      flex-direction: column;
+      text-align: center;
+      min-width: 80px;
+      > :nth-child(2) {
+        color: #777;
+      }
+    }
+
+    .spellbox {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      > img {
+        margin-top: 2px;
+      }
+    }
+
+    .kda {
+      margin-top: 12px;
+      font-weight: bold;
+      margin-bottom: 8px;
+      > span {
+        color: red;
+      }
+    }
+
+    .itembox {
+      position: relative;
+      width: 90px;
+      height: 60px;
+      display: flex;
+      margin-top: 12px;
+      flex-wrap: wrap;
+
+      span {
+        position: relative;
+        width: 20px;
+        margin-right: 2.5px;
+        height: 20px;
+        border-radius: 2px;
+        overflow: hidden;
+      }
+      img {
+        position: absolute;
+        width: inherit;
+        height: inherit;
+      }
+    }
+
+    > :nth-child(3) {
+      p {
+        margin-right: 24px;
+        height: 18px;
+        margin-bottom: 1px;
+      }
+      > :nth-child(1) {
+        margin-top: 10px;
+        > :nth-child(1),
+        > :nth-child(3) {
+          color: #aaa;
+        }
+        > :nth-child(2) {
+          color: red;
+        }
+      }
+    }
+
+    .champbox {
+      position: relative;
+      margin-top: 10px;
+      margin-right: 10px;
+      width: 50px;
+      height: 50px;
+      .champ_level {
+        position: absolute;
+        bottom: -6px;
+        right: 0;
+        min-width: 22px;
+        text-align: center;
+        font-size: 0.85rem;
+        color: white;
+        background-color: #111;
+        padding: 2px 4px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.wins {
+  background-color: var(--color-bg-light-blue);
+  position: relative;
+
+  .matchbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-bg-win-blue);
+    height: inherit;
+    width: 6px;
+  }
+
+  .info_topLine {
+    .wl {
+      color: var(--color-blue);
+      font-weight: bold;
+      margin-right: 4px;
+    }
+  }
+
+  .itembox {
+    span {
+      background-color: var(--color-light-blue);
+    }
+  }
+}
+
+.losses {
+  background-color: var(--color-bg-light-red);
+  position: relative;
+
+  .matchbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-bg-lose-red);
+    height: inherit;
+    width: 6px;
+  }
+
+  .info_topLine {
+    .wl {
+      color: var(--color-blue);
+      font-weight: bold;
+      margin-right: 4px;
+    }
+  }
+
+  .itembox {
+    span {
+      background-color: var(--color-light-red);
+    }
+  }
+}
+
+.under_info {
+  height: 0;
+  margin: 20px auto;
+  padding: 24px auto;
+  overflow: hidden;
+  transition: height 0.4s;
+}
+
+.open {
+  height: 800px;
+}
+
+.users_info {
+  height: 800px;
+  width: 100%;
+  white-space: nowrap;
+
+  .tr_grid {
+    display: grid;
+    grid-template-columns: 25% 15% 10% 8% 12% 30%;
+    text-align: center;
+    margin-bottom: 12px;
+    height: 54px;
+
+    > div {
+      overflow: hidden;
+    }
+
+    > :first-child {
+      display: flex;
+    }
+    p {
+      white-space: nowrap;
+      overflow: hidden;
+      color: #aaa;
+    }
+  }
+
+  .team1,
+  .team2 {
+    .ward {
+      height: 54px;
+      p {
+        height: 18px;
+        margin-bottom: 4px;
+      }
+    }
+    .ward::hover {
+      position: relative;
+      overflow: visible;
+      ::after {
+        position: absolute;
+        content: "총 시야 점수 / 제어와드";
+        width: 100px;
+        height: 100px;
+        top: 100%;
+        left: 100%;
+      }
+    }
+
+    .spellbox {
+      display: flex;
+      flex-direction: column;
+      margin-right: 8px;
+      > img {
+        margin-top: 2px;
+        width: 15px;
+      }
+    }
+
+    .champbox {
+      position: relative;
+      margin-right: 6px;
+      width: 30px;
+      height: 30px;
+      text-align: left;
+
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+
+      .champ_level {
+        position: absolute;
+        bottom: -4px;
+        right: -4px;
+        min-width: 18px;
+        text-align: center;
+        color: white;
+        background-color: #111;
+        padding: 2px;
+        border-radius: 50%;
+        font-size: 0.8rem;
+      }
+    }
+
+    .teamItemBox {
+      display: flex;
+      margin-left: 10px;
+      span {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        margin-right: 2px;
+        background-color: #aaa;
+        border-radius: 2px;
+        overflow: hidden;
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: inherit;
+          height: inherit;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .changeflex {
+    flex-direction: column;
+
+    .second {
+      order: 1;
+    }
+
+    .searchfloor {
+      order: 2;
+      background-color: var(--color-blue);
+      padding: 30px 0 10px;
+    }
+
+    .lastOrder {
+      order: 3;
+    }
+  }
+
+  .searchOn {
+    background-color: white;
+    width: 100%;
+    > div {
+      padding: 40px 0 80px;
+    }
+  }
+
+  .ingame_rank_box {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+    .user_rank {
+      position: absolute;
+      left: 0;
+      top: 40px;
+      height: auto;
+      margin-top: 30px;
+      width: 240px;
+      margin-right: 40px;
+    }
+  }
+
+  .user_match {
+    width: 900px;
+  }
+
+  .matchWindow {
+    display: flex;
+
+    .info_topLine {
+      display: flex;
+      flex-direction: column-reverse;
+      border-bottom: 0;
+      padding: 6px 0;
+      width: 130px;
+
+      > div {
+        display: flex;
+        flex-direction: column;
+        margin-right: 30px;
+      }
+
+      > div:nth-child(2) {
+        border-bottom: 1px solid #aaa;
+        padding: 0 0 20px 0;
+      }
+    }
+
+    .info_secondLine {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      position: relative;
+
+      > :first-child {
+        margin-right: 30px;
+      }
+
+      > :nth-child(2) {
+        margin-right: 30px;
+      }
+
+      > :nth-child(3) {
+        .info_stat {
+          position: relative;
+          padding-left: 9px;
+          margin-right: 12px;
+        }
+        .info_stat::after {
+          width: 1px;
+          height: 60px;
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        .itembox {
+          position: absolute;
+          bottom: -0px;
+          left: 0;
+          width: auto;
+          display: flex;
+          span {
+            margin-right: 4px;
+            width: 24px;
+            height: 24px;
+          }
+
+          span:nth-child(4) {
+            order: 9;
+          }
+        }
+      }
+    }
+  }
+
+  .wins {
+    .info_stat::after {
+      border-left: 1px solid var(--color-light-blue);
+    }
+  }
+
+  .losses {
+    .info_stat::after {
+      border-left: 1px solid var(--color-light-red);
+    }
+  }
+
+  .matchWindow .info_secondLine .team_match {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 240px;
+    margin-left: 100px;
+    height: 100%;
+    .match_users {
+      width: 90px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      span {
+        height: 18px;
+        img {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+  }
+
+  .users_info {
+    margin: 0 auto;
+    width: 860px;
+  }
+}

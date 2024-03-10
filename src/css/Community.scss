@@ -1,0 +1,104 @@
+.community,
+.detail,
+.write {
+  width: 100%;
+  background: white;
+
+  > div {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+  }
+
+  button {
+    border-radius: 4px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #aaa;
+  }
+
+  .detail_box {
+    .title_p {
+      margin-bottom: 20px;
+      border: 1px solid #777;
+      padding: 20px;
+      border-radius: 4px;
+    }
+
+    .content_p {
+      height: auto;
+      border: 1px solid #999;
+      padding: 20px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+  }
+  .pagination {
+    button {
+      height: 24px;
+      line-height: 20px;
+      padding: 0 10px;
+    }
+    span {
+      height: 24px;
+      line-height: 24px;
+      margin: 0 10px;
+    }
+  }
+
+  .redets {
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    > input {
+      width: 100%;
+      padding: 10px;
+    }
+    button {
+      width: 20%;
+      max-width: 60px;
+      margin-left: 12px;
+      padding: 10px;
+    }
+  }
+
+  .comment_p {
+    margin-bottom: 12px;
+    padding: 16px 0;
+
+    > div {
+      position: relative;
+      height: auto;
+
+      > div {
+        width: 100%;
+        padding: 8px 16px;
+        border-bottom: 1px solid #aaa;
+        margin-bottom: 4px;
+      }
+      button {
+        position: absolute;
+        padding: 2px 10px;
+        top: 0;
+        right: 12px;
+        border: 1px solid var(--color-bg-light-blue);
+        color: #111;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .community,
+  .detail,
+  .write {
+    > div {
+      padding: 30px 0;
+    }
+  }
+}
