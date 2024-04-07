@@ -4,6 +4,8 @@ const MainAni: React.FC = () => {
       메인 검색란에 들어갈 애니메이션 하나 만들기.
       <br />
       취직함 3.18
+      <br />
+      AWS ing - password + google autho
     </div>
   );
 };
