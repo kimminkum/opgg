@@ -35,7 +35,7 @@ const MapleApi: React.FC = () => {
   currentDate.setDate(currentDate.getDate() - 1);
   const formattedDate = currentDate.toISOString().split("T")[0];
   const myApiKey =
-    "test_d5d01dcf5a408a2f32d5662cccf248128aa0ee44db28deb4e95da08b2a4012a160b1f54ba0f445f36db292e67dfe4e33";
+    "encodeURIComponent";
 
   const fetchData = async () => {
     setLoading(true);
